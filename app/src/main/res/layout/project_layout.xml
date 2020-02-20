@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/project_layout"
+    android:scrollbars="horizontal">
+
+    <ScrollView
+        android:layout_width="519dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#009900"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="20sp"
+            android:text="We are a team tasked with a major  project of improving the well being of the Niger Delta region"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <HorizontalScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:layout_marginTop="96dp"
+                android:scrollbars="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView26">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="35dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/hover_image1"
+                        android:layout_width="150dp"
+                        android:layout_height="190dp"
+                        android:onClick="showBiography"
+                        android:src="@drawable/jeff" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/obafemi" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/anire" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/sam" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/jones" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/mina" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/monday" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="We have an able team that has taken us this far"
+            android:textColor="#009900"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_marginTop="20dp"
+            android:background="#009900"
+            android:gravity="center"
+            android:text="Board of Trustees"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="517dp"
+                android:layout_height="125dp"
+                android:layout_marginTop="112dp"
+                android:background="#ddddffff"
+                android:gravity="center"
+                android:text="Our Projects"
+                android:textColor="#009900"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+            <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="About PIND"
+            android:textColor="#009900"
+            android:textSize="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontal_view"
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/ecoooc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.366"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="#99000000">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/cassava"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:text="Cassava Plantation in Niger Delta Region"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/ated"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:text="ATED Programme"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/seminar"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:text="Seminar on the Implementation of Livestock Farm"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/discuss"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:text="Discussion session with Dr. Obafemi on Peace building process."
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/small_mediumm"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:text="Cassava Plantation in Niger Delta Region"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/peace_part"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:text="Cassava Plantation in Niger Delta Region"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="PIND"
+                android:textColor="#009900"
+                android:paddingTop="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/horizontal_view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:background="#ffffff"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

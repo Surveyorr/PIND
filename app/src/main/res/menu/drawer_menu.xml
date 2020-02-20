@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_navigation_drawer">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_who"
+        android:title="Who we are"
+        android:icon="@drawable/ic_group"/>
+
+    <item android:id="@+id/nav_what"
+        android:title="What we do"
+        android:icon="@drawable/ic_work"/>
+
+    <item android:id="@+id/nav_news"
+        android:title="News"
+        android:icon="@drawable/ic_story"/>
+
+    <item android:id="@+id/nav_impact"
+        android:title="Impact Stories"
+        android:icon="@drawable/ic_story"/>
+
+    <item android:id="@+id/nav_publication"
+        android:title="Publications"
+        android:icon="@drawable/ic_publish"/>
+
+    <item android:id="@+id/nav_contact"
+        android:title="Contact"
+        android:icon="@drawable/ic_contacts"/>
+</group>
+</menu>
